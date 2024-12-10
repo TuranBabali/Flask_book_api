@@ -10,7 +10,6 @@ class Book(db.Model):
     id:Mapped[int] = mapped_column(Integer,primary_key=True)
 
     name: Mapped[str] = mapped_column(String(100),nullable= False)
-    desc: Mapped[str] = mapped_column(Text(100),nullable= False)
 
     def __repr__(self):
         return self.name

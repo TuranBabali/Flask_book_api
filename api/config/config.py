@@ -5,9 +5,9 @@ import os
 
 BASE_DIR= os.path.dirname(os.path.realpath(__file__))
 
-db_name= config('DB_NAME')
-db_user= config('DB_USERNAME')
-db_password= config('DB_PASSWORD')
+# db_name= config('DB_NAME')
+# db_user= config('DB_USERNAME')
+# db_password= config('DB_PASSWORD')
 
 
 
